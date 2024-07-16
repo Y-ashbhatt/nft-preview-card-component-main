@@ -1,25 +1,27 @@
-# Frontend Mentor - NFT preview card component
+# Frontend Mentor - NFT preview card component solution
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 
-## The challenge
+## Overview
 
-Your challenge is to build out this preview card component and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-
 ### Screenshot
 
 Desktop
@@ -30,8 +32,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Y-ashbhatt/nft-preview-card-component-main)
+- Live Site URL: [Live site URL](https://y-ashbhatt.github.io/nft-preview-card-component-main/)
 
 ## My process
 
@@ -43,8 +45,8 @@ Mobile
 - CSS Grid
 - Mobile-first workflow
 
+## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
+- Frontend Mentor - [@Y-ashbhatt](https://www.frontendmentor.io/profile/Y-ashbhatt)
+- Twitter - [@yash_bhatt01](https://x.com/yash_bhatt01)
