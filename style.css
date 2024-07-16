@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main: hsl(217, 54%, 11%);
+  --Very-dark-blue-card: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Very-dark-blue-main);
+  color: var(--White);
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+}
+
+.container {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--Very-dark-blue-card);
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  max-width: 21.8rem;
+}
+
+.image {
+  width: 100%;
+  background-image: url("./images/image-equilibrium.jpg");
+  border-radius: 0.5rem;
+  min-height: 18rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-hover {
+  background-color: transparent;
+  background-image: none;
+  width: 100%;
+  min-height: 18rem;
+}
+
+.image-hover:hover{
+  background-image: url("./images/icon-view.svg");
+  opacity: 0.5;
+  background-color: var(--Cyan);
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.title:hover {
+  color: var(--Cyan);
+}
+
+.description {
+  color: var(--Soft-blue);
+  font-size: 1.1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--Cyan);
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--Soft-blue);
+}
+
+hr {
+  border: 1px solid var(--Very-dark-blue-line);
+}
+
+.creator {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.creator img {
+  width: 30px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--Soft-blue);
+}
+
+.name span {
+  color: var(--White);
+}
+
+.name span:hover {
+  color: var(--Cyan);
+}
